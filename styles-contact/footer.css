@@ -1,27 +1,16 @@
-.contact-text {
-	margin-left: 15px;
-	font-size: 1.2em;
-	font-weight: bold;
-	text-transform: uppercase;
+#contact-text {
+	color: white;
+  	background-color: black;
+  	font-family: 'Roboto', sans-serif;
 }
 
-.contact-text-no-hover {
-	margin-left: 15px;
-	font-size: 1.2em;
-	font-weight: bold;
-	text-transform: uppercase;
+a#contact-text-no-hover.contact-text {
+	background: #ffffff;
 }
 
-.contact-text:hover {
-	font-size: 1.3em;
-}
 .icon-table {
 	float:right;
 	margin-right:10px;
-}
-
-#contact-text {
-	color:#fff;
 }
 
 .collapse {
@@ -55,13 +44,6 @@
     height: 50px;
 }
 
-
-/*
-.navbar {
-	min-height:30px !important;
-} 
-*/
-
 .navbar-fixed-bottom {
 	height:50px;
 }
@@ -71,15 +53,6 @@
 	border:0px; 
 	padding-bottom:5px;
 }
-
-/*
-.social-buttons-nie {
-	background: none;
-	border: 0px;
-	padding-right:15px;
-	padding-top: 8px;
-}
-*/
 
 .footer {
 	padding-top: none;
